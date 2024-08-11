@@ -1,0 +1,322 @@
+.header {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 10px;
+}
+.header img {
+  height: 40px;
+  width: auto;
+}
+
+.search-bar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding-inline: 15px;
+  height: 35px;
+  width: 20rem;
+}
+.search-bar input {
+  background-color: transparent;
+  border: none;
+}
+.search-bar input::placeholder {
+  color: #bfbfbf;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-bar .search-icon {
+  font-size: 0.8rem;
+  color: #bfbfbf;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-bar input:focus::placeholder {
+  color: #999999;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-bar input:focus-within + .search-icon {
+  color: #999999;
+}
+
+.search-bar input:focus-visible {
+  outline: none;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 20px;
+  padding-inline: 0.6rem;
+  padding-block: 1em;
+}
+.nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #b2b2b2;
+  font-weight: bold;
+  font-size: 0.65rem;
+  transition: 0.1s ease-in-out;
+}
+
+.nav ul li a:hover {
+  color: gray;
+}
+
+.socials {
+  display: inline-flex;
+  gap: 25px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #b2b2b2;
+  transition: 0.2s ease-in-out;
+}
+
+.socials a:hover {
+  color: #ffc965;
+}
+
+.hero-section {
+  display: inline-flex;
+  gap: 25px;
+  width: 100%;
+  margin-block: 1rem;
+}
+
+.carousel {
+  height: 25em;
+  overflow-x: hidden;
+  border-radius: 8px;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item {
+  flex: 1;
+  height: 100%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-text h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: #ffc965 2px solid;
+}
+
+.hero-text p {
+  color: gray;
+}
+
+.hero-text h5 {
+  color: #ffc965;
+  font-weight: bold;
+}
+.hero-text .about-us-btn {
+  background-color: #202020;
+  border: none;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 12px 20px;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.hero-text .about-us-btn:hover {
+  background-color: #ffc710;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+  padding: 12px 20px;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+}
+.debit-cards {
+  padding-inline: 2em;
+}
+.products {
+  margin-block: 5em;
+  padding-inline: 5em;
+}
+.products .card {
+  border: 2px solid #e7e7e7;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.products .card:hover {
+  border: 2px solid #ffc965;
+  opacity: 1;
+}
+
+.products .card-body button {
+  background-color: transparent;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 12px 20px;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body button {
+  background-color: #202020;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  width: 10rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.card-body button:hover {
+  background-color: #ffc710;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  padding: 12px 20px;
+  width: 10rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+}
+
+.lower-component-container button {
+  background-color: #202020;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.lower-component-container button:hover {
+  background-color: #202020;
+  color: #ffc965;
+  transition: 0.2s ease-in-out;
+}
+.downloadLinks .applelink {
+  background-color: whitesmoke;
+  color: #202020;
+}
+
+.downloadLinks .playstorelink {
+  background-color: whitesmoke;
+}
+.downloadLinks .btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.downloadLinks .telegramlink {
+  background-color: whitesmoke;
+}
+.downloadLinks .telegramlink:hover {
+  background-color: #65ceff;
+  color: #202020;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 32em;
+  margin-block-start: 2em;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+
+.footer-titles {
+  font-size: medium;
+}
+
+.footer-copywrite a {
+  color: #202020;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #999999;
+  transition: all 0.1s ease-in-out;
+  font-size: smaller;
+}
+
+.footer ul li a:hover {
+  color: #434343;
+}
+
+.footer img {
+  width: 3em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats h4 {
+  font-weight: bold;
+  color: #ffc710;
+}
+
+.peopleCard {
+  font-size: x-small;
+}
+
+.peopleCard .title {
+  padding-block: 1em;
+}
+
+.peopleCard .title h6 {
+  font-weight: bold;
+  color: #202020;
+}
+
+.peopleCard h6,
+.peopleCard p {
+  font-size: x-small;
+  padding-right: 1rem;
+}
