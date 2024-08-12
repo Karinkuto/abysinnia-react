@@ -14,7 +14,7 @@ export default function About() {
         }}
       >
         <img
-          src="../assets/old-bank.png"
+          src="/old-bank.png"
           alt=""
           style={{ width: "50%", borderRadius: "8px" }}
         />
