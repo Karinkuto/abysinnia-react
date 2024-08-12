@@ -24,7 +24,7 @@ function FooterComponent() {
         <Footer.Brand
           className="brand-icon"
           href="https://abysinnia-react.vercel.app"
-          src="../assets/brand-icon.png"
+          src="/brand-icon.png"
           alt="abysinnia Logo"
         />
         <div
@@ -104,7 +104,7 @@ function FooterComponent() {
           </div>
         </div>
       </div>
-      <div>
+      <div style={{marginTop:"2em"}}>
         <div className="footer-links d-flex justify-content-between align-items-center g-3">
           <Footer.Copyright
             href="#"

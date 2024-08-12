@@ -261,7 +261,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="../assets/person1.png"
+            src="/person1.png"
             alt=""
           />
           <div>
@@ -297,7 +297,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="../assets/person2.png"
+            src="/person2.png"
             alt=""
           />
           <div>
@@ -333,7 +333,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="../assets/person3.png"
+            src="/person3.png"
             alt=""
           />
           <div>
