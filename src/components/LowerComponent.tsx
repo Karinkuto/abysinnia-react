@@ -41,7 +41,7 @@ function LowerComponent() {
         }}
       >
         <img
-          src="src/assets/virtual-machines.png"
+          src="../assets/virtual-machines.png"
           alt=""
           style={{ width: "50%", borderRadius: "8px" }}
         />

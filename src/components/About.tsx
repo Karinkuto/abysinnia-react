@@ -14,7 +14,7 @@ export default function About() {
         }}
       >
         <img
-          src="src/assets/old-bank.png"
+          src="../assets/old-bank.png"
           alt=""
           style={{ width: "50%", borderRadius: "8px" }}
         />
@@ -261,7 +261,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="src/assets/person1.png"
+            src="../assets/person1.png"
             alt=""
           />
           <div>
@@ -297,7 +297,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="src/assets/person2.png"
+            src="../assets/person2.png"
             alt=""
           />
           <div>
@@ -333,7 +333,7 @@ export default function About() {
               borderRadius: "4px",
               margin: ".5rem",
             }}
-            src="src/assets/person3.png"
+            src="../assets/person3.png"
             alt=""
           />
           <div>

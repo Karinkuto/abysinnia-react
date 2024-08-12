@@ -6,7 +6,7 @@ function DebitCardsComponent() {
       <div className="col">
         <div className="card h-100 p-2" style={{ border: "none" }}>
           <img
-            src="src/assets/card1.png"
+            src="../assets/card1.png"
             className="card-img-top p-2"
             alt="..."
           />
@@ -26,7 +26,7 @@ function DebitCardsComponent() {
       <div className="col">
         <div className="card h-100 p-2" style={{ border: "none" }}>
           <img
-            src="src/assets/card2.png"
+            src="../assets/card2.png"
             className="card-img-top p-2"
             alt="..."
           />
@@ -45,7 +45,7 @@ function DebitCardsComponent() {
       <div className="col">
         <div className="card h-100 p-2" style={{ border: "none" }}>
           <img
-            src="src/assets/card3.png"
+            src="../assets/card3.png"
             className="card-img-top p-2"
             alt="..."
           />

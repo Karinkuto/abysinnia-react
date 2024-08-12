@@ -23,8 +23,8 @@ function FooterComponent() {
       >
         <Footer.Brand
           className="brand-icon"
-          href="https://localhost:5731"
-          src="src/assets/brand-icon.png"
+          href="https://abysinnia-react.vercel.app"
+          src="../assets/brand-icon.png"
           alt="abysinnia Logo"
         />
         <div

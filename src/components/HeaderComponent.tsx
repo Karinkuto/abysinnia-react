@@ -5,7 +5,7 @@ function HeaderComponent() {
   return (
     <>
       <div className="header">
-        <img src="src/assets/logo.png" alt="Bank Logo" />
+        <img src="../assets/logo.png" alt="Bank Logo" />
         <div className="search-bar">
           <input type="text" placeholder="Search" />
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
